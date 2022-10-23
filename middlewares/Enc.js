@@ -24,4 +24,8 @@ const getEncDetails = async (req, res, next) => {
     }
 }
 
+const message = (name) => {
+    alert("Hactober fest edits completed by "+name+"!")  
+}
+
 module.exports = getEncDetails
